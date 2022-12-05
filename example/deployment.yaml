@@ -10,7 +10,7 @@ spec:
   template:
     metadata:
       labels:
-        name: etcd-operator
+        app: etcd-operator
     spec:
       containers:
       - name: etcd-operator
